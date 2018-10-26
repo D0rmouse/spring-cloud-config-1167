@@ -44,4 +44,9 @@ public class KeyStoreFactoryBean implements FactoryBean<KeyStore>, InitializingB
         LOG.info("Password: {}", password);
         LOG.info("Type: {}", type);
     }
+
+    @Override
+    public boolean isSingleton() {
+        return false;
+    }
 }

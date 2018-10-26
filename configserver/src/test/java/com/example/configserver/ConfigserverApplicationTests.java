@@ -1,15 +1,13 @@
-package com.example.demo;
+package com.example.configserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@ContextConfiguration(classes = DemoApplication.class)
-public class DemoApplicationTests {
+public class ConfigserverApplicationTests {
 
     @Test
     public void contextLoads() {
