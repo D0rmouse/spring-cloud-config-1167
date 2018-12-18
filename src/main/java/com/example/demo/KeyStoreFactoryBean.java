@@ -47,6 +47,6 @@ public class KeyStoreFactoryBean implements FactoryBean<KeyStore>, InitializingB
 
     @Override
     public boolean isSingleton() {
-        return false;
+            return false;
     }
 }
